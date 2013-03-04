@@ -1,0 +1,90 @@
+body {
+    background-color: #e1ddd9;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, SunSans-Regular, Sans-Serif;
+    color:#564b47;  
+    padding:20px;
+    margin:0px;
+    text-align: center;
+}
+
+div#contentarea {
+  text-align: left;
+  vertical-align: middle;   
+  margin: 0px auto;
+  padding: 0px;
+  width: 550px;
+  background-color: #ffffff;
+  border: 1px #564b47;
+}
+
+div#innercontentarea{ padding: 10px 50px; }    
+
+.left { float:left;}
+.right { float:right;}
+.clear { clear: both; }
+
+div#login-box{
+    margin: 50px auto 250px auto;
+    border: 1px solid #ddd;
+    width: 305px;
+}
+
+div#login-box div.inner{
+	padding: 10px;
+}
+
+form#login ul {
+	list-style: none;
+}
+
+form#login ul li {
+	margin: 10px 0;	
+}
+
+form#login ul li label {
+	float: left;
+	padding: 6px 0 0 0;
+	width: 70px;
+	display: block;
+	font-size:12px;
+	line-height: 1;
+}
+
+form#login ul li input.textbox {
+	font-size:13px;
+	font-weight: normal;
+	width: 147px;
+}
+
+form#login ul li input#login-submit {
+	margin: 0px 0 0 70px;
+	float:right;	
+}
+
+ul.profile-list {
+	margin:15px 0 0 0;
+	list-style: none;	
+	font-family: Arial, sans-serif;
+	font-size: 13px;	
+}
+
+ul.profile-list li {
+	padding:0 0 12px 0;
+}
+
+ul.profile-list span.field{
+	display: block;
+	float:left;	
+	margin: 3px 10px 0 0;
+	width: 110px;
+}
+
+ul.profile-list span.value{
+	float:left;	
+	padding: 3px 7px;
+	width: 210px;
+	background:#f7f5ed;
+	color:#666;
+	
+}
