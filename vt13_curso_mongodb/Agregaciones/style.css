@@ -1,0 +1,56 @@
+body {
+    background-color: #e1ddd9;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, SunSans-Regular, Sans-Serif;
+    color:#564b47;  
+    padding:20px;
+    margin:0px;
+    text-align: center;
+}
+
+div#contentarea {
+  text-align: left;
+  vertical-align: middle;   
+  margin: 0px auto;
+  padding: 0px;
+  width: 550px;
+  background-color: #ffffff;
+  border: 1px #564b47;
+}
+
+div#innercontentarea{ padding: 10px 50px; }    
+
+.left { float:left;}
+.right { float:right;}
+.clear { clear: both; }
+
+ul#tagcloud { padding: 2px; line-height: 3em; text-align: center; margin: 0;}
+ul#tagcloud li { display: inline; }
+ul#tagcloud a { padding: 0px; }
+ul#tagcloud a.class1 { font-size: 0.7em; font-weight: 100; }
+ul#tagcloud a.class2 { font-size: 0.8em; font-weight: 200; }
+ul#tagcloud a.class3 { font-size: 0.9em; font-weight: 300; }
+ul#tagcloud a.class4 { font-size: 1.0em; font-weight: 400; }
+ul#tagcloud a.class5 { font-size: 1.2em; font-weight: 500; }
+ul#tagcloud a.class6 { font-size: 1.4em; font-weight: 600; }
+ul#tagcloud a.class7 { font-size: 1.6em; font-weight: 700; }
+ul#tagcloud a.class8 { font-size: 1.8em; font-weight: 800; }
+ul#tagcloud a.class9 { font-size: 2.2em; font-weight: 900; }
+ul#tagcloud a.class10 { font-size: 2.5em; font-weight: 900; }
+
+table.table-list {
+ width: 100%;
+ line-height: 1;
+ text-align: left;
+}
+
+table.table-list th{
+ border-bottom: 1px solid #ccc; 
+ padding: 8px 0;
+ font-weight: bold;        
+}
+
+table.table-list td {
+ border-bottom: 1px solid #eee; 
+ padding: 6px 0;        
+}
