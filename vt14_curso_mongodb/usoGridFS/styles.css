@@ -1,0 +1,38 @@
+  body {
+      background-color: #e1ddd9;
+      font-size: 12px;
+      font-family: Verdana, Arial;
+      color: #564b47;  
+      padding:20px;
+      margin:0px;
+      text-align: center;
+  }
+
+  div#contentarea {
+    text-align: left;
+    vertical-align: middle;   
+    margin: 0px auto;
+    padding: 0px;
+    width: 550px;
+    background-color: #ffffff;
+    border: 1px #564b47;
+}
+
+div#innercontentarea{ padding: 10px 50px; }
+
+table.table-list {
+ width: 100%;
+ line-height: 1;
+ text-align: left;
+}
+
+table.table-list th{
+ border-bottom: 1px solid #ccc; 
+ padding: 8px 0;
+ font-weight: bold;        
+}
+
+table.table-list td {
+ border-bottom: 1px solid #eee; 
+ padding: 6px 0;        
+}
