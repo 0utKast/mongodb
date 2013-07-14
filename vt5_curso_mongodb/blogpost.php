@@ -22,7 +22,7 @@ switch ($action) {
         }
         /*código alternativo si queremos que el método insert espere resputesta de MongoDB:
          * try {
-         * $status = $connection->insert(array('title' => 'Titulo Blog', 'content' => 'Contenido Blog'), array('safe' => True));
+         * $status = $collection->insert($article, array('safe' => True));
          * echo "Operación de inserción completada";
          * } catch (MongoCursorException $e) {
          * die("Insert ha fallado ".$e->getMessage());
